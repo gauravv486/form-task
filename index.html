@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signin Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+
+<body>
+    <section class="container">
+        <form action="" id="form">
+            <div>
+                <h1>SIGN IN</h1>
+            </div>
+            <div class="form-element">
+                <label for="input">ID</label>
+                <input type="text" id="username" value="" placeholder="Enter Your ID" autocomplete="off" />
+                <p id="minimum"></p>
+                <p id="maximum"></p>
+                <p id="min-error"></p>
+
+                <label for="">Password</label>
+                <input type="password" id="password" value="" placeholder="Enter Your Password" />
+                <p id="max-error"></p>
+            </div>
+            <div id="button">
+                <button id="btn">Submit</button>
+            </div>
+            <div class="Password-Validation">
+                <h5>While Entering Password Please take care of some points</h5>
+                <p id="specialchar">1.At least one special character(!,@,#,$,%,&....)</p>
+                <p id="lowercase">2.At least one LowerCase character(a,b,c....z)</p>
+                <p id="uppercase">3.At least one UpperCase character(A,B,C....Z)</p>
+                <p id="Numericvalue">4.At least one Numeric character(1,2,3,....9)</p>
+            </div>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
