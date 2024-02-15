@@ -36,7 +36,7 @@ username.addEventListener("input", function () {
         minimum.style.display = "block";
         minimum.textContent = "ID should contain more than 3 numbers";
         minimum.style.fontSize = "15px";
-        minimum.style.color = "red";
+        minimum.style.color = "white";
     }
     if (inputvalue.length > 3 || inputvalue == "") {
         minimum.style.display = "none";
@@ -48,7 +48,7 @@ username.addEventListener("input", function () {
         maximum.style.display = "block";
         maximum.textContent = "Your ID can not exceed more than 10 number"
         maximum.style.fontSize = "15px";
-        maximum.style.color = "red";
+        maximum.style.color = "white";
     }
     if (/^\d+$/.test(inputvalue)) {
         minError.textContent = "";
@@ -56,7 +56,7 @@ username.addEventListener("input", function () {
     else {
         minError.textContent = "ID should contain numbers only! ";
         minError.style.fontSize = "15px";
-        minError.style.color = "red";
+        minError.style.color = "white";
         if (inputvalue == "") {
             minError.textContent = "";
         }
