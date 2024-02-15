@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 :root {
-    --bg-color: rgba(255, 0, 0, 0);
-    --body-color:rgb(227, 215, 215);
-    --black-color:rgba(26, 26, 25, 0.269);
+    --bg-color: rgba(12, 12, 12, 0);
+    --body-color:rgba(0, 217, 255, 0.266);
+    --black-color:rgba(64, 107, 107, 0.352);
 }
 body{
     background-color: var(--body-color);
@@ -22,6 +23,8 @@ body{
     height: auto;
     width: 60vw;
     background:var(--black-color);
+    border-radius: 40px;
+    padding: 30px;
     
 }
 .container{
@@ -46,20 +49,24 @@ body{
     border-radius: 8px;
     border: none;
     padding: 10px;
+    border: hidden;
+    outline: none;
 }
 #password{
     height:5vh ;
     border-radius: 8px;
     border: none;
     padding: 10px;
+    border: hidden;
+    outline: none;
 }
 #button{
     margin:25px;
 }
 #btn{
-    height: 20px;
+    height: 30px;
     width: 100px;
-    border-radius: 5px;
+    border-radius: 12px;
     border: hidden;
 }
 .Password-Validation p {
